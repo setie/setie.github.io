@@ -1,0 +1,198 @@
+/* line 1, ../scss/customs.scss */
+.hero {
+  background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
+  background-size: cover;
+  height: 75vh;
+}
+/* line 5, ../scss/customs.scss */
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #222930, #4eb1ba);
+  height: 75vh;
+  opacity: .8;
+}
+/* line 16, ../scss/customs.scss */
+.hero .intro {
+  padding: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 22, ../scss/customs.scss */
+.hero h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 30, ../scss/customs.scss */
+.hero p {
+  color: #fff;
+  line-height: 1.75em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* line 37, ../scss/customs.scss */
+.hero .tech-img {
+  background: url("http://static.pexels.com/wp-content/uploads/2015/02/apple-hand-iphone-6-4322-525x350.jpg") no-repeat center center;
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 47, ../scss/customs.scss */
+  .hero .tech-img {
+    height: 18rem;
+    width: 18rem;
+  }
+  /* line 51, ../scss/customs.scss */
+  .hero h1 {
+    padding-top: 4.5rem;
+    text-align: right;
+    font-size: 2.5rem;
+  }
+  /* line 56, ../scss/customs.scss */
+  .hero p {
+    text-align: right;
+  }
+}
+
+/* line 62, ../scss/customs.scss */
+.face {
+  border-radius: 50%;
+}
+
+/* line 70, ../scss/customs.scss */
+i {
+  font-size: 2.5rem;
+}
+
+/* line 74, ../scss/customs.scss */
+.icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  background: white;
+}
+/* line 84, ../scss/customs.scss */
+.icon-button span {
+  display: block;
+  border-radius: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+}
+/* line 94, ../scss/customs.scss */
+.icon-button:hover span {
+  display: block;
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: -1.8rem;
+}
+/* line 101, ../scss/customs.scss */
+.icon-button i {
+  background: none;
+  height: 3.6rem;
+  width: 3.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  line-height: 3.6rem;
+  transition: all 0.3s;
+}
+
+/* line 114, ../scss/customs.scss */
+.twitter span {
+  background-color: #4099ff;
+}
+
+/* line 118, ../scss/customs.scss */
+.facebook span {
+  background-color: #3B5998;
+}
+
+/* line 122, ../scss/customs.scss */
+.gplus span {
+  background-color: #db5a3c;
+}
+
+/* line 126, ../scss/customs.scss */
+.icon-button .fi-social-twitter {
+  color: #4099ff;
+}
+
+/* line 130, ../scss/customs.scss */
+.icon-button .fi-social-facebook {
+  color: #3b5998;
+}
+
+/* line 134, ../scss/customs.scss */
+.icon-button .fi-social-google-plus {
+  color: #db5a3c;
+}
+
+/* line 138, ../scss/customs.scss */
+.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
+  color: white;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+}
+
+/* line 145, ../scss/customs.scss */
+footer {
+  padding: 80px 0 10px 0;
+}
+
+/* line 148, ../scss/customs.scss */
+footer a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+}
+
+/* line 153, ../scss/customs.scss */
+.work img:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+/* line 153, ../scss/customs.scss */
+.work li {
+  height: 140px;
+  overflow: hidden;
+}
+
+/* line 153, ../scss/customs.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  opacity: 0.8;
+}

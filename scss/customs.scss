@@ -1,0 +1,153 @@
+.hero {
+background: url('http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg') no-repeat center center;
+background-size: cover;
+height: 75vh;
+&:before {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-image: linear-gradient(to top,#222930,#4eb1ba);
+height: 75vh;
+opacity: .8; 
+}
+.intro {
+padding: 3rem;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+h1 {
+color: #fff;
+font-size: 1.5rem;
+line-height: 1.5em;
+letter-spacing: -0.025em;
+font-weight: 300;
+text-align: center;
+}
+p {
+color: #fff;
+line-height: 1.75em;
+font-weight: 200;
+text-align: center;
+margin-bottom: 2rem;
+}
+.tech-img {
+background: url('http://static.pexels.com/wp-content/uploads/2015/02/apple-hand-iphone-6-4322-525x350.jpg') no-repeat center center;
+background-size: cover;
+height: 9rem;
+width: 9rem;
+border-radius: 50%;
+display: block;
+margin: 0 auto;
+}
+@media only screen and (min-width: 40.063em) {
+.tech-img {
+height: 18rem;
+width: 18rem;
+}
+h1 {
+padding-top: 4.5rem;
+text-align: right;
+font-size: 2.5rem;
+}
+p {
+text-align: right;
+}
+}
+}
+
+.face{
+border-radius: 50%;
+}
+
+
+//icons
+
+
+i {
+font-size: 2.5rem;
+}
+
+.icon-button {
+border-radius: 3.6rem;
+width: 3.6rem;
+height: 3.6rem;
+margin: 0 5px;
+position: relative;
+display: inline-block;
+text-align: center;
+font-size: 2rem;
+background: white;
+span{
+display: block;
+border-radius: 0;
+width: 0;
+height: 0;
+position: absolute;
+left: 50%;
+top: 50%;
+transition: all 0.3s;  
+}
+&:hover span{
+display: block;
+border-radius: 3.6rem;
+width: 3.6rem;
+height: 3.6rem;
+margin: -1.8rem;
+}
+i {
+background: none;
+height: 3.6rem;
+width: 3.6rem;
+position: absolute;
+left: 0;
+top:0;
+z-index: 10;
+line-height: 3.6rem;
+transition: all 0.3s;
+}
+}
+
+.twitter span{
+background-color: #4099ff;
+}
+
+.facebook span{
+background-color: #3B5998;
+}
+
+.gplus span{
+background-color: #db5a3c;
+}
+
+.icon-button .fi-social-twitter{
+color: #4099ff;
+}
+
+.icon-button .fi-social-facebook{
+color: #3b5998;
+}
+
+.icon-button .fi-social-google-plus {
+color: #db5a3c;
+}
+
+.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
+color: white;
+font-size: 2.6rem;
+line-height: 3.9rem;
+}
+
+//footer
+footer{
+padding:80px 0 10px 0;
+}
+footer a:hover
+{
+color:rgba(0,0,0,0.4);background-color:transparent;
+}
+//hover
+.work img:hover{opacity:0.5;-webkit-transition:0.3s ease;-moz-transition:0.3s ease;-ms-transition:0.3s ease;-o-transition:0.3s ease;transition:0.3s ease;}.work li{height:140px;overflow:hidden;}hr{border:0;height:1px;background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;}
